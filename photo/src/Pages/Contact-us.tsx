@@ -1,30 +1,36 @@
-import Image1 from "../assets/pexels-remove.png"
-import { CallMadeSharp as CallMadeSharpIcon } from '@mui/icons-material'
-export default function Contact(){
-      return (
-            <div className="mt-40 bg-yellow-800 h-[60vh] w-full  flex flex-row items-center justify-around">
-                 
+import { useNavigate } from "react-router";
+import Image1 from "../assets/pexels-remove.png";
+import { CallMadeSharp as CallMadeSharpIcon } from "@mui/icons-material";
 
-<div className="text-start flex flex-col gap-2">
+export default function Contact() {
+      const navigate = useNavigate()
+  return (
+    <div className="mt-40 bg-yellow-800 w-full py-12 px-6 md:px-16 flex flex-col lg:flex-row items-center justify-between gap-8">
+      {/* Text Content */}
+      <div className="text-start flex flex-col gap-4 max-w-xl">
+        <span onClick={()=>navigate("/contact")} className="border  cursor-pointer border-white p-3 w-fit rounded-full">
+          <CallMadeSharpIcon className="text-white" fontSize="medium" />
+        </span>
 
-<span className="border-1 p-2 w-fit rounded-full border-white">
-      <CallMadeSharpIcon className='inline-block text-white cursor-pointer ' fontSize='medium' />
-</span>
-<span className="text-5xl text-start text-white font-semibold tracking-wide leading-tight">
-      Contact us now
-      <br/> 
-      to learn more
-</span> 
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-wide leading-tight text-white">
+          Contact us now
+          <br />
+          to learn more
+        </h1>
 
-<h2 className="text-white text-lg font-medium tracking-wide leading-6">
-      about our services and back your session 
-</h2>
-</div>
+        <h2 className="text-white text-base md:text-lg font-medium leading-relaxed">
+          about our services and book your session today.
+        </h2>
+      </div>
 
-<div>
-      <img src={Image1} className="h-96" />
-</div>
-            
-            </div>
-      ) 
+      {/* Image */}
+      <div>
+        <img
+          src={Image1}
+          alt="Contact Visual"
+          className="h-72 md:h-96 w-auto object-contain"
+        />
+      </div>
+    </div>
+  );
 }

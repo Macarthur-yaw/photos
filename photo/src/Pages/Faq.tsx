@@ -18,7 +18,7 @@ export default function FaqShow() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 w-[40%] mx-auto gap-4 p-4 mt-10">
+      <div className="grid grid-cols-1 md:w-[40%] mx-auto gap-4 p-4 mt-10">
         {Faq.map((faq, index) => (
           <div key={faq.id} className="border border-gray-300 rounded-lg">
             <div

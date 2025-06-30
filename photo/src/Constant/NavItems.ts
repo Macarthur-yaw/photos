@@ -1,18 +1,13 @@
 export const Navitems=[
 
-      {
-
-            id:1,
-
-            title:"About",
-
-      },
+     
 
       {
 
             id:2,
 
             title:"Portfolio",
+            link:"/gallery"
 
       },
 
@@ -21,6 +16,7 @@ export const Navitems=[
             id:3,
 
             title:"Services",
+            link:"/services"
 
       },
 
@@ -29,6 +25,7 @@ export const Navitems=[
             id:4,
 
             title:"Blog",
+            link:"/blog"
 
       },
 
@@ -37,6 +34,7 @@ export const Navitems=[
             id:5,
 
             title:"Contact",
+            link:"/contact"
 
       }
 
