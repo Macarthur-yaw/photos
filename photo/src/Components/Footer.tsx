@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact</h3>
           <p className="text-gray-400 mb-2">Email: info@flitspixels.com</p>
-          <p className="text-gray-400 mb-4">Phone: +123 456 7890</p>
+          <p className="text-gray-400 mb-4">Phone: +233 599293572</p>
 
           <div className="flex space-x-4">
             <a href="#" className="hover:text-yellow-500 transition">

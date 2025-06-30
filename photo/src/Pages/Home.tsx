@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router';
 export default function Home() {
       const navigate = useNavigate()
   return (
-    <div className="relative w-full h-screen overflow-hidden flex items-center justify-center">
+    <div className="relative w-full md:h-screen h-[80vh] overflow-hidden flex items-center justify-center">
       <img
         src={Image1}
         alt="Photography Background"

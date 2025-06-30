@@ -20,12 +20,13 @@ export default function Navbar() {
           {Navitems.map((item, index) => (
             <a
               key={index}
-              href={item.link}
+              
               className="text-gray-300 hover:text-white transition duration-300"
             >
+              <Link to={item.link}>
               
               {item.title}
-              
+              </Link>
             </a>
           ))}
         </div>
@@ -54,11 +55,13 @@ export default function Navbar() {
           {Navitems.map((item, index) => (
             <a
               key={index}
-              href={item.link}
+            
               className="block text-gray-300 hover:text-white transition duration-300"
               onClick={() => setMobileOpen(false)} // close menu on click
             >
+              <Link to={item.link}>
               {item.title}
+              </Link>
             </a>
           ))}
         </div>

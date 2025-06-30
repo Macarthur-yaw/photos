@@ -7,7 +7,7 @@ export default function About() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.1 }}
-      className="flex flex-col items-center justify-center min-h-screen p-6 sm:p-8"
+      className="flex flex-col items-center justify-center mt-20  p-6 sm:p-8"
     >
       <motion.div
         initial={{ x: -100, opacity: 0 }}

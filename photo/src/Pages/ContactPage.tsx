@@ -13,7 +13,7 @@ export default function ContactPage() {
             <label className="block text-sm font-medium text-gray-700">Full Name</label>
             <input
               type="text"
-              placeholder="Your Name"
+              placeholder="kevin macarthur"
               className="mt-1 w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>
@@ -22,7 +22,7 @@ export default function ContactPage() {
             <label className="block text-sm font-medium text-gray-700">Email Address</label>
             <input
               type="email"
-              placeholder="you@example.com"
+              placeholder="arthurkevin1260@gmail.com"
               className="mt-1 w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-black"
             />
           </div>
